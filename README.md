@@ -1,3 +1,15 @@
+This is my first Angular app and my first Stackblitz project!
+
+It is a hard-coded (for now) task manager application.
+
+On the front page is a hard-coded array of tasks, and each one has an onclick event which takes you to a details page showing the description for that event.
+
+Clicking on the main app title takes you back to the home page.
+
+Most of the CRUD functionality is implemented via the service class. Hopefully next week I can replace this with my API code. :)
+
+Automatic documentation:
+
 # Myapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
