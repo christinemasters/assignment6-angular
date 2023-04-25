@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { TodoService } from './todo.service';
 import { Router } from '@angular/router';
 
 // Component decorator references html template and css files
@@ -13,9 +12,6 @@ import { Router } from '@angular/router';
 export class AppComponent {
   title = 'CheckMate';
   subtext = 'A friend to help you check the boxes';
-
-  // @Input() todo: { _id: number; title: string; description: string };
-  // @Input() todoList: { _id: number; title: string; description: string };
 
   constructor(private router: Router) {}
 
