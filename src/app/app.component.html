@@ -1,0 +1,11 @@
+<div class="container">
+  <h1 (click)="home()">{{ title }}</h1>
+  <h3>{{ subtext }}</h3>
+  <div class="card-deck col-md-4">
+    <div class="card bg-light">
+      <!-- <app-todo *ngFor="let todoObject of todoList" [todo]="todoObject">
+      </app-todo> -->
+      <router-outlet> </router-outlet>
+    </div>
+  </div>
+</div>
